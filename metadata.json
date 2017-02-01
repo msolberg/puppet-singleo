@@ -1,0 +1,26 @@
+{
+  "name": "openstack-singleo",
+  "version": "0.1.0",
+  "author": "Michael Solberg <msolberg@redhat.com>",
+  "summary": "Puppet module for SingleO",
+  "license": "Apache 2.0",
+  "source": "https://github.com/msolberg/puppet-singleo",
+  "project_page": "https://github.com/msolberg/puppet-singleo",
+  "issues_url": "https://github.com/msolberg/puppet-singleo",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": ["7"]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": ["7"]
+    }
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 1.0.0"
+    }
+  ]
+}
+
