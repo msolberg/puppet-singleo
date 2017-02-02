@@ -78,7 +78,8 @@ Steps to install an all-in-one environment using singleo on a RHEL 7 box:
 :yaml:
   :datadir: /etc/puppet/hieradata
 :hierarchy:
-  common
+  - controller
+  - common
 EOF
 # mkdir /etc/puppet/hieradata
 # cp /etc/puppet/modules/singleo/data/* /etc/puppet/hieradata/

@@ -1,2 +1,2 @@
 step: 99
-bootstrap_nodeid: $::hostname
+bootstrap_nodeid: "%{::hostname}"

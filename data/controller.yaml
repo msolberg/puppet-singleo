@@ -1,9 +1,10 @@
 # mysql
+enable_galera: false
+mysql_innodb_buffer_pool_size: 0
+mysql_max_connections: 8192
 mysql::server::manage_config_file: true
 #mysql_bind_host:
 #mysql_cluster_name:
-mysql_innodb_buffer_pool_size: 0
-mysql_max_connections: 8192
 #mysql_virtual_ip:
 
 # rabbitmq
