@@ -21,6 +21,10 @@
       "name": "puppetlabs-stdlib",
       "version_range": ">= 1.0.0"
     }
+    {
+      "name": "openstack-tripleo",
+      "version_range": ">= 5.5.0"
+    }
   ]
   "data_provider": "hiera"
 }
