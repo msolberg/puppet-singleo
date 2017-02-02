@@ -27,3 +27,11 @@ rabbitmq::default_user: guest
 rabbitmq::file_limit: '16384'
 #rabbitmq::node_ip_address:
 
+# keystone
+keystone::admin_token: secret
+keystone::admin_password: secret
+keystone::service_name: httpd
+keystone::roles::admin::email: 'root@localhost'
+keystone::roles::admin::password: secret
+
+keystone::wsgi::apache::ssl: false

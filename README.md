@@ -63,7 +63,7 @@ Steps to install an all-in-one environment using singleo on a RHEL 7 box:
 # subscription-manager repos --enable=rhel-7-server-rpms --enable=rhel-7-server-extras-rpms --enable=rhel-7-server-rh-common-rpms --enable=rhel-ha-for-rhel-7-server-rpms --enable=rhel-7-server-openstack-10-rpms
 # yum update -y 
 # reboot
-# yum install openstack-puppet-modules.noarch -y
+# yum install openstack-puppet-modules openstack-selinux -y
 # puppet config set modulepath /etc/puppet/modules:/usr/share/puppet/modules:/usr/share/openstack-puppet/modules/
 # yum install -y git
 # cd /etc/puppet/modules/
